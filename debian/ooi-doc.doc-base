@@ -1,0 +1,10 @@
+Document: ooi-doc
+Title: ooi Documentation
+Author: ooi Developers
+Abstract: Sphinx documentation for Keystone
+Section: Network/File Transfer
+
+Format: HTML
+Index: /usr/share/doc/ooi-doc/html/index.html
+Files: /usr/share/doc/ooi-doc/html/*
+
