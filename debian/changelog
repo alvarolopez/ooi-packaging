@@ -1,0 +1,19 @@
+python-ooi (0.1.0rc3-1) stable; urgency=medium
+
+  * [586326b] do not set max and min values in port
+
+ -- Alvaro Lopez Garcia <aloga@ifca.unican.es>  Tue, 24 Nov 2015 18:58:32 +0100
+
+python-ooi (0.1.0rc2-1) stable; urgency=medium
+
+  * [03e85dc] do not access token info to obtain tenant
+  * [4253585] Adapt to support Juno
+  * [99c4c81] Add listen addr, port and number of workers options
+
+ -- Alvaro Lopez Garcia <aloga@ifca.unican.es>  Tue, 24 Nov 2015 18:27:51 +0100
+
+python-ooi (0.1rc1-1) stable; urgency=medium
+
+  * Initial release.
+
+ -- Alvaro Lopez Garcia <aloga@ifca.unican.es>  Mon, 23 Nov 2015 14:25:38 +0100

@@ -1,0 +1,56 @@
+Source: python-ooi
+Section: net
+Priority: extra
+Maintainer: Alvaro Lopez Garcia <aloga@ifca.unican.es>
+Homepage: https://launchpad.net/ooi
+Build-Depends:
+ debhelper (>= 9~),
+ dh-python,
+ python-all (>= 2.7),
+ python-all-dev (>= 2.7),
+ python-support,
+Build-Depends-Indep:
+ python-coverage (>= 3.6),
+ python-fixtures (>= 0.3.14),
+ python-mock (>= 1.0),
+ python-oslo.config | python-oslo-config,
+ python-oslo.log | python-oslo-log (>= 1.0.0) | python-nova (<< 1:2015.1.1),
+ python-pbr (>= 0.6),
+ python-routes (>= 1.12.3),
+ python-setuptools,
+ python-six (>= 1.4.0),
+ python-sphinx,
+ python-testtools (>= 0.9.36),
+ python-tox,
+ python-webob (>= 1.2.3),
+ subunit (>= 0.0.18),
+Standards-Version: 3.9.6
+X-Python-Version: >= 2.7
+
+Package: python-ooi
+Architecture: all
+Section: python
+Depends:
+ python-oslo.config | python-oslo-config,
+ python-oslo.log | python-oslo-log (>= 1.0.0) | python-nova (<< 1:2015.1.1),
+ python-routes (>= 1.12.3),
+ python-six (>= 1.4.0),
+ python-webob (>= 1.2.3),
+ ${python:Depends},
+ ${misc:Depends},
+Provides: ${python:Provides}
+Replaces: ooi
+X-Python-Version: ${python:Versions}
+Description: OpenStack OCCI Interface.
+ .
+ ooi is an implementation the Open Cloud Computing Interface (OCCI) for
+ OpenStack.
+
+Package: ooi-doc
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Recommends: libjs-jquery
+Description: OpenStack OCCI Interface.
+ .
+ This package contains the ooi documentation.

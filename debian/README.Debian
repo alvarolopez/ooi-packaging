@@ -1,0 +1,12 @@
+OpenStack OCCI Interface
+------------------------
+
+There is a set of pipeline examples available at the following directory:
+
+    /usr/share/doc/python-ooi/examples
+
+You should append one of those to your OpenStack Compute (nova) pipeline,
+that is usually "/etc/nova/api-paste.ini"
+
+Then you can enable it by adding "ooi" to the "enabled_apis" option of your 
+nova configuration file (usually "/etc/nova/nova.conf").
