@@ -1,3 +1,18 @@
+python-ooi (0.1.1-1) stable; urgency=medium
+
+  [ Alvaro Lopez Garcia ]
+  * [2281be1] update pipeline configuration
+  * [f70d7ff] add pipeline config samples
+  * [15892da] generate configuration via oslo
+  * [735e7d0] remove version information from file
+  * [113a5e5] version from pbr is a method, not an attribute
+
+  [ Pablo Orviz ]
+  * [7dc99cf] Add Mitaka pipeline to documentation
+  * [0cbfac3] Documentation minor fix
+
+ -- Alvaro Lopez Garcia <aloga@ifca.unican.es>  Fri, 27 Nov 2015 13:45:38 +0100
+
 python-ooi (0.1.0rc3-1) stable; urgency=medium
 
   * [586326b] do not set max and min values in port
