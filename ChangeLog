@@ -1,6 +1,14 @@
 CHANGES
 =======
 
+0.2.0
+-----
+
+* Replace assertEqual(None, *) with assertIsNone in tests
+* update mailmap entries
+* fix documentation typo
+* Release floating IPs on server deletion
+
 0.1.1
 -----
 
@@ -23,6 +31,7 @@ v0.1.0rc2
 * Add listen addr, port and number of workers options
 * Adapt to support Juno
 * do not access token info to obtain tenant
+* Support linking storage on compute creation
 
 v0.1rc1
 -------
