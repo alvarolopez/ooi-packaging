@@ -1,3 +1,20 @@
+python-ooi (0.3.0-1) stable; urgency=medium
+
+  [ jorgesece ]
+  * [6c42464] Include helper methods for managing networks
+  * [a28f143] Create OCCI and Controller network for neutron
+  * [5eb4a8e] NetworkLink and Compute adapted to the new networks
+  * [bd01399] Included neutron configuration in documentation
+  * [62e0434] Allow to specify network ids on VM creation.
+  * [45dd8b5] Solved list network links
+  * [bfe70cc] Add mixin to indicate that neutron is being used
+
+  [ Enol Fernandez ]
+  * [527a90a] Do not use occi.compute for OpenStack attributes
+  * [61d99a6] Fix network allocation parameter
+
+ -- Alvaro Lopez Garcia <aloga@ifca.unican.es>  Mon, 13 Jun 2016 16:23:33 +0200
+
 python-ooi (0.2.0-1) stable; urgency=medium
 
   [ Enol Fernandez ]
