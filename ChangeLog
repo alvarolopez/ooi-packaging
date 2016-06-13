@@ -1,6 +1,19 @@
 CHANGES
 =======
 
+0.3.0
+-----
+
+* Fix network allocation parameter
+* Add mixin to indicate that neutron is being used
+* Do not use occi.compute for OpenStack attributes
+* Solved list network links
+* Allow to specify network ids on VM creation
+* Included neutron configuration in documentation
+* NetworkLink and Compute adapted to the new networks
+* Create OCCI and Controller network for neutron
+* Include helper methods for managing networks
+
 0.2.0
 -----
 
@@ -25,17 +38,13 @@ CHANGES
 
 * do not set max and min values in port
 
-v0.1.0rc2
----------
+0.1.0rc2
+--------
 
 * Add listen addr, port and number of workers options
 * Adapt to support Juno
 * do not access token info to obtain tenant
 * Support linking storage on compute creation
-
-v0.1rc1
--------
-
 * Render links as entities if shown independently
 * remove pbr version dependency
 * Network refactoring

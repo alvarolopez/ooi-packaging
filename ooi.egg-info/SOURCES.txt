@@ -47,6 +47,7 @@ ooi/api/__init__.py
 ooi/api/base.py
 ooi/api/compute.py
 ooi/api/helpers.py
+ooi/api/helpers_neutron.py
 ooi/api/network.py
 ooi/api/network_link.py
 ooi/api/query.py
@@ -84,6 +85,7 @@ ooi/openstack/templates.py
 ooi/tests/__init__.py
 ooi/tests/base.py
 ooi/tests/fakes.py
+ooi/tests/fakes_network.py
 ooi/tests/test_parser.py
 ooi/tests/test_resource_exception_handler.py
 ooi/tests/test_validator.py
@@ -93,6 +95,8 @@ ooi/tests/controllers/test_compute.py
 ooi/tests/controllers/test_helpers.py
 ooi/tests/controllers/test_network.py
 ooi/tests/controllers/test_network_links.py
+ooi/tests/controllers/test_neutron_helper.py
+ooi/tests/controllers/test_nova_net_helper.py
 ooi/tests/controllers/test_query.py
 ooi/tests/controllers/test_storage.py
 ooi/tests/controllers/test_storage_links.py
