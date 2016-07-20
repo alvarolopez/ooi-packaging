@@ -1,19 +1,18 @@
 Metadata-Version: 1.1
 Name: ooi
-Version: 0.3.0
+Version: 0.3.1
 Summary: OOI: OpenStack OCCI Interface
 Home-page: https://launchpad.net/ooi
 Author: Spanish National Research Council - CSIC
 Author-email: ooi@lists.launchpad.net
 License: Apache-2
-Description: ooi: OpenStack OCCI Interface
-        =============================
+Description: # ooi: OpenStack OCCI Interface
         
         ooi is an implementation the Open Grid Forum's
         [Open Cloud Computing Interface (OCCI)](http://www.occi-wg.org)
         for [OpenStack](http://www.openstack.org).
         
-        The documentation for OOI is available at 
+        The documentation for OOI is available at
             http://ooi.readthedocs.org/en/latest
         
         In the unfortunate event that bugs are discovered, they should
