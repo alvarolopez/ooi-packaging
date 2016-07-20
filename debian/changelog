@@ -1,3 +1,42 @@
+python-ooi (0.3.1-1) stable; urgency=medium
+
+  [ Alvaro Lopez Garcia ]
+  * [4aba28b] tests: separate between functional and unit
+  * [e779e78] doc: include packages information
+  * [f8dd59a] doc: link to usage instructions in index
+  * [785f74f] gitbook: point to online documentation
+
+  [ Enol Fernandez ]
+  * [6281c7a] Include storage documentation in usage
+
+  [ jorgesece ]
+  * [5e0d3c6] Add functional tests for network
+  * [4848725] Add copyright as required in INDIGO-DataCloud
+  * [2bb382e] Solved OCCI validation using osnetwork mixin
+  * [27a51ab] Delete extra parameter in network link creation
+  * [0d068e3] Update documentation and gitbook
+  * [599fa24] Move neutron_ooi_endpoint to nova.conf
+  * [d7b13e3] Modify structure of test to separe functional tests
+
+ -- Alvaro Lopez Garcia <aloga@ifca.unican.es>  Wed, 20 Jul 2016 11:19:44 +0200
+
+python-ooi (0.3.0-1) stable; urgency=medium
+
+  [ jorgesece ]
+  * [6c42464] Include helper methods for managing networks
+  * [a28f143] Create OCCI and Controller network for neutron
+  * [5eb4a8e] NetworkLink and Compute adapted to the new networks
+  * [bd01399] Included neutron configuration in documentation
+  * [62e0434] Allow to specify network ids on VM creation.
+  * [45dd8b5] Solved list network links
+  * [bfe70cc] Add mixin to indicate that neutron is being used
+
+  [ Enol Fernandez ]
+  * [527a90a] Do not use occi.compute for OpenStack attributes
+  * [61d99a6] Fix network allocation parameter
+
+ -- Alvaro Lopez Garcia <aloga@ifca.unican.es>  Mon, 13 Jun 2016 16:23:33 +0200
+
 python-ooi (0.2.0-1) stable; urgency=medium
 
   [ Enol Fernandez ]
